@@ -1,0 +1,52 @@
+.loginHead {
+  /position: fixed;
+  top: 0;
+  height: 100px;
+  padding: 10px 10px;
+  background-color: #555379;
+  color: #000;
+  
+}
+
+
+button {
+    background-color: #555379; /* Green */
+    filter: brightness(85%);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  button:hover {
+    cursor: pointer;
+    /* transform: scale(1.2); */
+    filter: brightness(100%);
+    /* background-color: #666874; */
+  }
+
+
+  .horLayout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+

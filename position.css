@@ -1,0 +1,29 @@
+@import url('common.css');
+
+.stopCell {
+    color: #fff;
+    display:table-cell; 
+    margin-bottom:30px;
+}
+
+.stopCell.selected{
+    color: #33ff33;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.arrow.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+
+}
+
+.arrow.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

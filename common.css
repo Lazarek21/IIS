@@ -1,0 +1,222 @@
+body {
+    background-color: #242333;
+    color: #fff;
+    font-size:35px;
+    font-family:Arial;
+}
+
+.loginHead {
+    position: fixed;
+    top: 0;
+    padding: 10px 10px;
+    right: 0px;
+    z-index: 999;
+  }
+  
+  button {
+      background-color: #555379; /* Green */
+      filter: brightness(85%);
+      color: white;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size:35px;
+      margin: 5px 5px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+    }
+  
+    button:hover {
+      cursor: pointer;
+      /* transform: scale(1.2); */
+      filter: brightness(100%);
+      /* background-color: #666874; */
+    }
+  
+    .homeButton{
+      background-color: #555379; /* Green */
+      filter: brightness(85%);
+      color: white;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 5px 5px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .homeButton:hover {
+        cursor: pointer;
+        /* transform: scale(1.2); */
+        filter: brightness(100%);
+        /* background-color: #666874; */
+    }
+  
+    .horLayout {
+      display: table-row;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      padding: 10px 10px;
+    }
+
+    .cell {
+      display: table-cell;
+    }
+
+    .verLayout {
+        display: table;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        padding: 10px 10px;
+        border: 2px solid #000;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: 10px 10px;
+      }
+
+    form {
+        display: table;
+        border: 3px solid #242333;;
+        padding: 10px 10px;
+    }
+  
+    input {
+      width:auto;
+      background-color: #555379;
+      border: none;
+      filter: brightness(85%);
+      padding: 12px 20px;
+      color: #fff;
+      font-size:35px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 8px 0;
+    }
+
+
+
+    input[type=text] {
+      display: table-cell;
+    }
+
+    input[type=password] {
+      display: table-cell;
+    }
+
+    input[type=submit]:hover {
+      cursor: pointer;
+      /* transform: scale(1.2); */
+      filter: brightness(100%);
+      /* background-color: #666874; */
+    }
+
+    input:focus {
+        outline-width: 0;
+        /* border: 3px solid #fff; */
+    }
+
+    label {
+      display: table-cell;
+    }
+
+    .inputButton {
+        background-color: #555379; /* Green */
+        filter: brightness(85%);
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+      }
+    
+      .inputButton:hover {
+        cursor: pointer;
+        /* transform: scale(1.2); */
+        filter: brightness(100%);
+        /* background-color: #666874; */
+      }
+
+      .databaseFoot {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px 10px;
+        z-index: 999;
+      }
+
+      select {
+        background-color: #555379;
+        filter: brightness(85%);
+        font-size: 35px;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+            
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+        border-radius: 10px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        filter:brightness(100%)
+      }
+
+      .dropdownRow {
+        background-color: #555379;
+        filter: brightness(85%);
+        z-index: 1;
+        border-radius: 10px;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {filter:brightness(100%)}
+      .dropdownRow:hover {filter:brightness(100%)}
+      
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+  
